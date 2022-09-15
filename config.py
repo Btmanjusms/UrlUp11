@@ -36,7 +36,7 @@ class Config((object)):
     # your telegram id
     OWNER_ID = int(os.environ.get("OWNER_ID", "2083503061"))
     # database session name, example: xurluploader
-    SESSION_NAME = os.environ.get("SESSION_NAME", "")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "Xurluploader")
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abcd:abcd@cluster0.fsm5m5p.mongodb.net/?retryWrites=true&w=majority")
     PROCESS_TEXT = """
