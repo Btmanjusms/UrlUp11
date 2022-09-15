@@ -5,10 +5,10 @@ import os
 
 class Config((object)):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5088382778:AAHK0NfCDh9MD11608CndwGBlOPDtsIbQ4A")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 8813038))
+    API_HASH = os.environ.get("API_HASH", "780fd96b159baa710dada78ff1621b54")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = {int(x) for x in os.environ.get("BANNED_USERS", "").split()}
@@ -34,11 +34,11 @@ class Config((object)):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "2083503061"))
     # database session name, example: xurluploader
     SESSION_NAME = os.environ.get("SESSION_NAME", "")
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abcd:abcd@cluster0.fsm5m5p.mongodb.net/?retryWrites=true&w=majority")
     PROCESS_TEXT = """
     Process: {}
     """
